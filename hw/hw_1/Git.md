@@ -11,5 +11,5 @@
 
 1. git clone [url] 从网址下载Repository，并且在当前路径下创建该文件夹，之后可以在这个文件夹中创建/修改文件并上传；
 2. 也可以将下载过来的文件夹中的所有文件（包括隐藏文件夹）全部移到本地已有的对应文件夹中，之后便可以直接对已有的文件夹进行上传。
-3. git add . 可以将文件添加到本地的缓冲区中，通过git status观察缓冲区中有哪些文件，然后使用git commit保存到本地的仓库中，还可以用git push上传到云端。![git](D:\SE-Additional\hw\hw_1\git.jpg)
-4. 除了
+3. git add . 可以将文件添加到本地的缓冲区中，也可以一个个写文件名，选择性上传，通过git status观察缓冲区中有哪些文件，然后使用git commit保存到本地的仓库中，还可以用git push上传到云端。![git](D:\SE-Additional\hw\hw_1\git.jpg)
+4. 对于fetch/pull/checkout还不是很了解。
