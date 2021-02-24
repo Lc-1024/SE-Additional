@@ -13,4 +13,7 @@
 2. 也可以将下载过来的文件夹中的所有文件（包括隐藏文件夹）全部移到本地已有的对应文件夹中，之后便可以直接对已有的文件夹进行上传。
 3. git add . 可以将文件添加到本地的缓冲区中，也可以一个个写文件名，选择性上传，通过git status观察缓冲区中有哪些文件，然后使用git commit保存到本地的仓库中，还可以用git push上传到云端。![git](./git.jpg)
 4. add 多余的文件之后可以用git reset HEAD [file]来移除多余的文件。
-5. 对于fetch/pull/checkout还不是很了解。
+5. 可以通过sparsecheckout下载部分的文件。https://www.cnblogs.com/xilifeng/p/5225666.html
+6. 对于fetch/checkout还不是很了解。
+7. git log 查看commit记录；git status 查看本地add记录；git diff 查看本地文件和已经commit的文件之间的区别。
+8. git pull 从远程拉取新的更新，在git push之前需要pull检查是否有代码更新，以免影响别人的修改。

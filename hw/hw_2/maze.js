@@ -10,10 +10,10 @@ function drawMaze(index) {
         for( var j = 0; j < rows; j++ ) {
             switch( mazes[index][i][j] ) {
                 case 0: ctxs[index].fillStyle = "black"; break;
-                case 1: ctxs[index].fillStyle = "gray"; break;
+                case 1: ctxs[index].fillStyle = "grey"; break;
                 case 2: ctxs[index].fillStyle = "red"; break;
                 case 3: ctxs[index].fillStyle = "yellow"; break;
-                case 4: ctxs[index].fillStyle = "#500000"; break;
+                case 4: ctxs[index].fillStyle = "darkred"; break;
                 case 8: ctxs[index].fillStyle = "blue"; break;
                 case 9: ctxs[index].fillStyle = "gold"; break;
             }
@@ -445,13 +445,7 @@ function createMaze1NonAni(ctx) {
         if( neighbours.length < 1 ) {
             if( stacks[0].length < 1 ) {
                 for(var i = 0; i < count; i++) {
-                    drawMaze(i); 
-                    drawMaze(i);    
-                }
-    
-                for(var i = 0; i < count; i++) {
-                    drawMaze(i); 
-                    drawMaze(i);    
+                    drawMaze(i);     
                 }
     
                 stacks = new Array(count);
